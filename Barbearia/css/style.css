@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+body{
+    background-image: url(/img/barberia-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main{
+
+}
+
+section{
+    padding: 54px;
+   
+}
+
+h3{
+    font-size: 50px;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 5%;
+   
+    
+}
+
+.btn{
+    background-color: #493c37;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1;
+
+}
+.btn-max{
+    background-color: #2320b4;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1;
+
+}
+
+.btn:hover{
+    background-color: #998d87 ;
+} 
+
+.btn-max:hover{
+    background-color: #2419EE ;
+} 
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    position: relative;
+}
+
+nav ul{
+     display: flex;
+     text-align: center;
+}
+
+nav ul a{
+    color: white;
+    margin: 0 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+}
+
+nav ul a::after{
+    content: "";
+    background-color: rgb(172, 14, 14);
+    height: 3px;
+    width: 0px;
+    display: block;
+}
+
+nav ul a:hover::after{
+    width: 60px;
+
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+}
+
+.banner .banner-text{
+    margin: 150px;
+    text-align: center;
+    padding: 0 90px;
+}
+
+.banner .banner-text h1{
+    font-size: 96px;
+    color: white;
+    
+}
+
+.banner .banner-text h2{
+    font-size: 40px;
+    color: azure;
+    font-weight: lighter;
+    margin: 18px 0;
+    margin-bottom: 60px;
+}
+
+.depoimentos{
+    background-color: black;
+    padding: 5rem 0;
+    
+    
+}
+
+.depoimentos h3{
+    text-align: center;
+    
+    color: aliceblue;
+}
+.depoimentos p{
+    text-align: center;
+    margin-bottom: 20px;
+    color: aliceblue;
+    
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+.depoimentos .cards-item{
+    background-color: rgb(113, 150, 150);
+    margin:80px;
+    border-radius: 50px;
+
+}
+
+.cards-item .estrelas i {
+    color: yellow;
+    background-color: aqua;
+    
+    
+}
+.cards-item .estrelas p {
+    display: flex;
+    
+    
+}
+/* sessão preços e planos */
+.pricing-container{
+    padding-bottom: 5rem;
+    text-align: center;
+}
+.pricing-container h3 {
+    
+    color: #fff;
+}
+.pricing-container p {
+    font-size: 24px;
+    color: #fff;
+}
+
+.plans-container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 20px;
+}
+
+.plan{
+    flex: 1;
+    max-width: 275px;
+    margin: 20px;
+}
+ 
+.plan ul{
+    padding: 0;
+}
+
+.plan li{
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: azure;
+    
+}
+
+/* copia inicio */
+.plan .price {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #E5164C;
+    color: #fff;
+    text-align: center;
+    line-height: 120px;
+    margin: 0 auto -50px;
+    font-size: 18px;
+    position: relative;
+  }
+  
+  .plan .plan-name {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color:#24A3D8;
+    padding: 50px 0;
+  }
+  
+  .plan .plan-btn {
+    background-color: #2cc762;
+    color: #fff;
+    font-size: 24px;
+    height: 75px;
+    line-height: 75px;
+    cursor: pointer;
+  }
+  
+  .plan .recommended {
+    background-color: #f45c57;
+  }
+/* copia fim */
+
+
+
+/* Roda pé */
+footer{
+    padding-top: 70px;
+    padding-bottom: 45px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+footer p{
+    color: azure;
+}
+

@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+    
+}
+
+body{
+    background-image: url(/img/barberia-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;    
+    margin:5%;
+}
+
+/* Header - nav */
+.container-1{
+    
+    
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.btn,
+.btn-max{
+    background-color: blue;
+    color: azure;
+    padding: 15px 20px;
+    margin: 20px;
+    border-radius: 15px;
+    display:inline-block;
+    transition: 0.1;
+}
+
+.btn-max{
+    background-color: rgb(255, 0, 0);
+    
+}
+
+
+.btn:hover{
+    background-color: rgb(39, 47, 158);
+}
+
+.btn-max:hover{
+    background-color: rgb(163, 30, 30);
+}
+
+/* section 1 */
+
+.banner{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.banner .banner-text{
+    margin: 150px;
+    text-align: center;
+    padding: 0 90px;
+}
+
+.banner .banner-text h1{
+    font-size: 96px;
+    color: white;
+    
+}
+.banner-text h2{
+    font-size: 40px;
+    color: azure;
+    font-weight: lighter;
+    margin: 18px 0;
+    margin-bottom: 60px;
+}
+
+.banner .banner-text .btn-max {
+    margin: auto;
+    padding: 25px;
+}
+
+/*   section 2 */
+
+.pricing-container{
+    
+    
+    padding-bottom: 10rem;
+    text-align: center;
+    
+}
+.pricing-container h2 {
+    font-size: 36px;
+    color: #fff;
+}
+.pricing-container p {
+    font-size: 24px;
+    margin-top: 20px;
+    color: aliceblue;
+}
+
+.plans-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.plan{
+    flex: 1;
+    max-width: 275px;
+    margin: 20px;
+}
+ 
+.plan ul{
+    padding: 0;
+}
+
+.plan li{
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: azure;
+    
+}
+
+
+.plan .price {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);;
+    color: aliceblue;
+    text-align: center;
+    line-height: 120px;
+    margin: 0 auto -50px;
+    font-size: 22px;
+    position: relative;
+    font-weight: bold;
+    
+  }
+  
+  .plan .plan-name {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color:aliceblue;
+    background-color:#000000;
+    padding: 50px 0;
+  }
+  
+  .plan .plan-btn {
+    background-color: #2cc762;
+    color: aliceblue;
+    font-size: 24px;
+    height: 75px;
+    line-height: 75px;
+    cursor: pointer;
+  }
+  
+  .plan .recommended {
+    background-color: rgb(255, 0, 0);;;
+  }
+
+/* section 3 e 4 */
+.faca-mais .container{
+    display: flex;
+    align-items: center ;
+    margin-bottom: 10px;
+}
+
+.faca-mais .vazio{
+    width: 50%;
+}
+
+.faca-mais .sobre{
+    width: 50%;
+    color:aliceblue;
+    background-color: #000000;
+}
+
+
+
+  /* section 5 */
+.depoimentos{
+    background-color: black;
+    padding: 5rem 0;
+    display: flex;
+    justify-content: space-evenly;
+   
+
+    
+}
+
+.depoimentos h3{
+    text-align: center;
+    font-size: 36px;
+    color: aliceblue;
+}
+.depoimentos h4{
+    text-align: center;
+    margin-bottom: 20px;
+    color: aliceblue;
+    font-size: 24px;
+    
+}
+.depoimentos p{
+    text-align: center;
+    margin-bottom: 20px;
+    color: aliceblue;
+    
+    
+}
+
+.cards{
+    display: flex;
+   justify-content: space-between;
+}
+
+
+.depoimentos .cards .cards-item{
+    background-color: rgb(113, 150, 150);
+    margin:80px;
+    border-radius: 50px;
+    
+    
+}
+
+
+.cards-item .estrelas i {
+    color: yellow;
+    
+    
+}
+.cards-item .estrelas p {
+    display: flex;
+    
+    
+}
+
+  /* Roda pé */
+  footer{
+    padding-top: 80px;
+    padding-bottom: 30px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+footer p{
+    color: azure;
+    background-color: black;
+}
+
+
+/* teste */
+
+.faca-mais 
+.container
+.sobre{
+   display: inline-block;
+   text-align: center;
+   justify-content: space-evenly;
+   padding: 25px;
+   margin: 1%;
+
+}
+
+.sobre h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.sobre p {
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+/* incompleto */
+/* responsive */
+/* tablet */
+
+@media (max-width: 900px){
+    banner p{
+        padding: 0 6rem;
+    }
+   
+
+@media (max-width: 576px){
+    html,
+    body{
+        overflow-x: hidden;
+        justify-content: center;
+    }
+    .cards{
+        flex-direction: column;
+      }
+}
